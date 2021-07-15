@@ -18,48 +18,51 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/en.php', // if no resume, the button will not show up
+  paragraphOne: `\t My journey to software development started after college. I became a math teacher then entered the seminary. I have always loved problem solving and technology, so after I decided that the seminary wasn't for me, a good friend of mine suggested I look into software engineering as a possible new career path.`,
+  paragraphTwo: `\t So with my friend’s inspiration I started digging deeper into the work of software engineering and the more I learned the more fun it became. It's fun talking to other people about projects and new technologies, and it's fun to work with people and plan things out and create something new.`,
+  paragraphThree: `\t I look forward to having fun building stuff and solving problems with you in the future.`,
+  resume:
+    'https://docs.google.com/document/d/18f690tmYpHD3k-hoI8vY4rGN7cObvJL0RztvqXaq8AU/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'catwalk.png',
+    title: 'Catwalk',
+    info: 'E-commerce product overview microservice',
+    info2: `I created this microservice from scratch using React.js. I worked with an api to dynamically render product info based on user input. This was a a fullstack page that involved a Node.js backend with multiple routes.`,
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Wayne-Enterprises-Inc/cat-walk', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'setnforget1.png',
+    title: 'Set-n-Forget',
+    info: 'A recipe tracker and cooking planner.',
+    info2:
+      'I developed a search feature that would work with a MongoDB database to dynamically produce results. I also designed the webapp using a MaterialUI framework, taking advantage of flexbox and grid layouts.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Team-Rocky/blueocean', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'benchmark.png',
+    title: 'BenchMark',
+    info: 'A workout tracker',
+    info2:
+      'A fullstack app that I developed in just 12 hours. I pulled hundreds of workouts from a public api. This list feeds a dropdown search for the workout name. The workout info is then saved to a mongoDB database and can be referenced in chronological order. Node.js/Express powered the routeing. I still use this to track my own workout progress.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/mrcruz117/BenchMark', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
-  email: '',
+  btn: 'Email me',
+  email: 'mrcruz1989@gmail.com',
 };
 
 // FOOTER DATA
