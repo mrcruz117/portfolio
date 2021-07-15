@@ -48,7 +48,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'benchmark.png',
+    img: 'benchmark1.png',
     title: 'BenchMark',
     info: 'A workout tracker',
     info2:
