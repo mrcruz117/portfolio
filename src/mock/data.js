@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `\t My journey to software development started after college. I became a math teacher then entered the seminary. I have always loved problem solving and technology, so after I decided that the seminary wasn't for me, a good friend of mine suggested I look into software engineering as a possible new career path.`,
-  paragraphTwo: `\t So with my friend’s inspiration I started digging deeper into the work of software engineering and the more I learned the more fun it became. It's fun talking to other people about projects and new technologies, and it's fun to work with people and plan things out and create something new.`,
+  paragraphTwo: `\t So with my friend’s inspiration I started digging deeper into the work of software engineering and the more I learned the more fun it became. I enjoy talking to other people about projects and new technologies, and I thrive on developing creative solutions with the people I work with.`,
   paragraphThree: `\t I look forward to having fun building stuff and solving problems with you in the future.`,
   resume:
     'https://docs.google.com/document/d/18f690tmYpHD3k-hoI8vY4rGN7cObvJL0RztvqXaq8AU/edit?usp=sharing', // if no resume, the button will not show up
