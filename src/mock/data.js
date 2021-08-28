@@ -56,6 +56,16 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/mrcruz117/BenchMark', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'restaurantLookUp.png',
+    title: 'Restaurant Lookup',
+    info: 'Search for local restaurants',
+    info2:
+      'This is an app developed with React-Native. I pull from the yelp API and organized the the restaurants based on price range. Results are also based on where you are locally. The search bar allows for more specific searches based on broad info such as restaurant name or cuisine type.',
+    url: '',
+    repo: 'https://github.com/mrcruz117/udemyReactNative/tree/main/food', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
